@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Formulaire : Annuaire</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="contrainer col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <br>
+                    <h3 class="text-center">ANNUAIRE</h3>
+                    <hr>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <h3 class="text-center">Affichage des données la base de donnée</h3>
+                    <hr>
+                    <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Prénom</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dupont</td>
+                                <td>Bob</td>
+                                <td>db@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center">Ajouter une personne</h3>
+                    <hr>
+                    <form action="" method="post">
+                        <div class="tour">
+                            <input class="nom" type="text" name="nom" placeholder="Nom" required="">
+                        </div>
+                        <div class="tour">
+                            <input class="prenom" type="text" name="prenom" placeholder="Prenom" required="">
+                        </div>
+                        <div class="tour">
+                            <input class="mail" type="email" name="email" required placeholder="Email" required="">
+                        </div>
+                            <input class="btn btn-primary" name="btn_ajout" type="submit" value="Ajouter">
+                        <hr>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
